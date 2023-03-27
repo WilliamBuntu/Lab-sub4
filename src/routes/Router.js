@@ -5,6 +5,7 @@ import NewsPage from "../components/NewsPage/NewsPage.js";
 import TeacherPage from "../components/TeacherPage/TeacherPage.js";
 import Staff from './../components/staff/Staff';
 import Cardk from "../components/card-kvn/Cardk";
+import Student from "../components/student/Student.js";
 /****Layouts*****/
 const FullLayout = lazy(() => import("../layouts/FullLayout.js"));
 
@@ -26,6 +27,7 @@ const NewsPge = lazy(() => import( "../components/NewsPage/NewsPage"));
 const TeachePage= lazy(()=>import('./../components/TeacherPage/TeacherPage'));
 const staff = lazy (()=>import('../components/staff/Staff'))
 const Cardk1 = lazy (()=>import('../components/card-kvn/Cardk.js'))
+const student1 = lazy (()=> import('../components/student/Student.js'))
 
 
 /*****Routes******/
@@ -62,6 +64,10 @@ element:<NewsPage/>
 element:<TeacherPage/>
     
   },
+  {path: "/Student",
+  element:<Student/>
+      
+    },
   {
     
     path: "/dashboard",

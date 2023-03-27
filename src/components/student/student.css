@@ -1,0 +1,231 @@
+
+
+
+
+
+
+.stud-name{
+    position: absolute;
+width: 610px;
+height: 77px;
+left: 29px;
+top: 182px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 70px;
+line-height: 30px;
+display: flex;
+align-items: center;
+
+color: white;
+
+}
+.stud-phot{
+    position: absolute;
+width: 334px;
+height: 370px;
+left: 961px;
+top: 128px;
+
+background: url('./kids.jpg');
+background-position: center;
+background-size: cover;
+border: 10px solid #1B1C30;
+filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.25));
+border-radius: 12px;
+}
+.stud-title{
+    position: absolute;
+width: 387px;
+height: 60px;
+left: 530px;
+top: 592px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 60px;
+/* identical to box height */
+
+text-align: center;
+
+color: #2BA7E2;
+}
+.stud-phot1{
+    position: absolute;
+width: 409.01px;
+height: 347px;
+left: 123px;
+top: 737px;
+
+background: url('./ff.jpeg'), #EAE7DC;
+background-position: center;
+background-size: cover;
+border-radius: 13px;
+}
+.stud-desciption{
+    position: absolute;
+width: 634px;
+height: 367px;
+left: 636px;
+top: 767px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+
+color: #0C101A;
+}
+.pc{
+    height: 90vh; 
+    top:112px; 
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+}
+.project-title{
+    
+position: absolute;
+width: 411px;
+height: 41px;
+left: 507px;
+top: 1142px;
+
+/* font-family: 'Poppins'; */
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 45px;
+text-align: center;
+
+color: #2BA7E2;
+
+}
+.video_1{
+    position: relative;
+    width: 600px;
+    height:330px ;
+    border-radius: 10px;
+    top: 770px;
+    left: 76px;
+    border-radius: 12px;
+
+    /* background-size: cover;
+    background-position: center; */
+}
+.vdio{
+ 
+position: relative;
+width: 686px;
+height: 364px;
+left: 100px;
+top: 1512px;
+
+
+}
+@media only screen and (max-width:600px){
+    .pc{
+        height: 250px; 
+        top:112px; 
+         /* width: 100%; */
+         width: 415px;
+         background-position: center;
+         background-size: cover;
+         background: green;
+    }
+    .stud-name{        font-size: 15px;
+    }
+
+    .stud-phot{
+        position: absolute;
+    width: 134px;
+    height: 140px;
+    left: 191px;
+    top: 98px;
+    
+    background: url('./kids.jpg');
+    background-position: center;
+    background-size: cover;
+    border: 10px solid #1B1C30;
+    filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.25));
+    border-radius: 12px;
+    }
+
+    .stud-title{
+        position:relative;
+    width: 387px;
+    height: 60px;
+    left: 5px;
+    top: 3px;
+    
+    /* font-family: 'Poppins'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 60px;
+    /* identical to box height */
+
+    
+    color: #2BA7E2;}
+    .stud-phot1{
+        display: none;
+    }
+
+    .stud-desciption{
+        position: absolute;
+    width: 374px;
+    height: 367px;
+    left: 6px;
+    top: 307px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    
+    color: #0C101A;
+    }
+    
+
+.video_1{
+    position: relative;
+    width: 600px;
+    height:330px ;
+    border-radius: 10px;
+    top: 240px;
+    left: 20px;
+    border-radius: 12px;
+
+    /* background-size: cover;
+    background-position: center; */
+}
+
+.project-title{
+    
+    position: absolute;
+    width: 411px;
+    height: 41px;
+    left: 7px;
+    top: 512px;
+    
+    /* font-family: 'Poppins'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+   
+    
+    color: #2BA7E2;
+    
+    }
+}
+
+

@@ -21,7 +21,7 @@ const Navigation = () => {
           <Link to={"/AboutPage"} ><li>About Us</li></Link>
           <Link to={"/Staff"}><li>Staff </li></Link>
           <Link to={"/NewsPage"}><li>In The News</li></Link>
-          <Link to={"/News"}><li>News</li></Link>
+          <Link to={"/Student"}><li>Student</li></Link>
           <Link to={"/Cardk"}><li>Contact Us</li></Link>
           <Link to={"/TeacherPage"}><li>One teacher</li></Link>
           <Link to={"/dashboard/starter"}><li>dash</li></Link>
